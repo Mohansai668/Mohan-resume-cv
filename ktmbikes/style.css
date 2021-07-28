@@ -1,3 +1,30 @@
+@media only screen and (max-width: 600px) {
+.navbar-lv{
+
+}
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+.nav-head{
+	padding-top:50px;
+}
+.navbar-lv {
+  width: 100px;
+  height:50vh;
+  background-image: url(ktm.jpg);
+  background-position:top;
+  background-size: cover;
+}
+.img-fluid{
+	padding: 50px
+}
 .navbar-brand{
   font-size: 25px;
   font-weight: bold;
@@ -12,7 +39,7 @@ span{
 
 .banner{
   width: 100px;
-  height:100vh;
+  height:50vh;
   background: url(ktm.jpg);
   background-position:top;
   background-size: cover;
@@ -24,13 +51,17 @@ span{
   font-family: cursive;
   top:300px;
 }
-.features {
-  margin: 30px;
+.feactures-lv {
+  margin: 40px;
+	padding-top: 80px;
+
 }
 .text{
   text-align: center;
   font-family: cursive;
-  padding:30px 30px;
+	padding-bottom: 50px 50px;
+	color: red;
+
 }
 .caursal{
   margin: 20px;
